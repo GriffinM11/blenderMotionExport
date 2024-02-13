@@ -161,7 +161,7 @@ class ExportDataPanel(bpy.types.Panel):
         col.separator()
         col.label("Export markers:")
         row = col.row(align=True)
-        row.operator("scene.export_marker", text="Selected").selected_only = True
+        row.operator("scene.export_marker", text="Selected")
         row.operator("scene.export_marker", text="All")
 
 
